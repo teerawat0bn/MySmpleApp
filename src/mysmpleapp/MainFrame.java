@@ -288,7 +288,7 @@ public class MainFrame extends javax.swing.JFrame {
         
         int intA = new Integer(a);
         int intB = new Integer(b);
-        int intC = intA+intB;
+        int intC = intA-intB;
         
         String c = Integer.toString(intC);
         
@@ -313,7 +313,7 @@ public class MainFrame extends javax.swing.JFrame {
         
         int intA = new Integer(a);
         int intB = new Integer(b);
-        int intC = intA+intB;
+        int intC = intA*intB;
         
         String c = Integer.toString(intC);
         
@@ -338,7 +338,7 @@ public class MainFrame extends javax.swing.JFrame {
         
         int intA = new Integer(a);
         int intB = new Integer(b);
-        int intC = intA+intB;
+        int intC = intA/intB;
         
         String c = Integer.toString(intC);
         
